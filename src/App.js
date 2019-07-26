@@ -5,6 +5,11 @@ import Header from 'sections/header';
 // import Activity from 'sections/activity';
 import Section from 'components/section';
 import Footer from 'sections/footer';
+import S1 from 'sections/s1';
+import S2 from 'sections/s2';
+import S3 from 'sections/s3';
+import S4 from 'sections/s4';
+
 
 // let current = null;
 // let next = null;
@@ -48,16 +53,16 @@ function App() {
         <div className="test"></div>
       </Waypoint> */}
       <Section t1="产品展示" t2="Products display" sub="北纬 38.5 - 40°的大连附近海域，可能产出世界上最好的海参，牧葵海参全部出自这片海">
-        <div>asdasdasd</div>
+        <S1/>
       </Section>
       <Section t2="Instant Sea Cucumber 牧葵既食海参" single={true}>
-        <div>asdasdasd</div>
+        <S2/>
       </Section>
       <Section t1="食参建议" t2="Usage Advise" sub="不同人群吃海参所获得的益处是不同的">
-        <div>asdasdasd</div>
+        <S3/>
       </Section>
       <Section left={true} t1="关于牧葵" t2="About MUKUI" sub="店面与微笑是我精心展示的表面">
-        <div>chenge</div>
+        <S4/>
       </Section>
       <Footer/>
     </div>
