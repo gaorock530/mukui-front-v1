@@ -1,0 +1,36 @@
+.s4-wrapper {
+  .s4-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    .s4-box {
+      flex:1;
+      min-width:33%;
+      max-width:33%;
+      justify-content: space-between;
+      padding: 3px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .s4-text {
+    position: absolute;
+    width: 100%;
+    bottom: 700px;
+    text-align: right;
+    p {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 40px;
+      font-weight: 200px;
+      color: white;
+    }
+  }
+
+  .img {
+    width: 100%;
+    margin-top: 100px;
+  }
+}

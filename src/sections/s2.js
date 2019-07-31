@@ -4,7 +4,7 @@ export default class S2 extends React.PureComponent {
 
   render () {
     return (
-      <div className="s1-wrapper">
+      <div className="s2-wrapper">
         <div className="col-1">
           <div className="p1">
             <div className="img"></div>
@@ -37,7 +37,7 @@ export default class S2 extends React.PureComponent {
               每次都是横着切，因为奶奶吵赢了</p>
           </div>
           <div className="p5">
-            <p>&emsp;&emsp;牧葵独有的特殊工艺，最大限度的锁住营养成分， 每一口咬下去，都可以感受到参肉有力道回馈于牙齿的弹力，不用费力就可以嚼烂，但是绝不会轻易嚼碎，区别于市面上所有海参的筋道口感称为“牧葵筋”</p>
+            <p>&emsp;&emsp;牧葵独有的特殊工艺，最大限度的锁住营养成分， 每一口咬下去，都可以感受到参肉有力道回馈于牙齿的弹力，不用费力就可以嚼烂，但是绝不会轻易嚼碎，区别于市面上所有海参的筋道口感称为“牧葵筋”。</p>
           </div>
         </div>
       </div>

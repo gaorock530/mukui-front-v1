@@ -3,4 +3,38 @@ footer {
   width: 100%;
   height: 300px;
   background-color: #34302d;
+  text-align: center;
+  color: #fff;
+
+  .footer-links {
+    padding-top: 90px;
+
+    .footer-link-1, .footer-link-2, .footer-link-3, .footer-link-4 {
+      display: inline-block;
+      margin: 10px;
+      background-image: url('/assets/pics/back-link.png');
+      background-repeat: no-repeat;
+      width: 63px;
+      height: 64px;
+    }
+
+    .footer-link-2 {
+      background-position-x: -87px;
+    }
+    .footer-link-3 {
+      background-position-x: -174px;
+    }
+    .footer-link-4 {
+      background-position-x: -261px;
+    }
+  }
+
+  h3 {
+    font-size: 35px;
+    padding: 10px 0;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 200;
+  }
 }
