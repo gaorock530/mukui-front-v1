@@ -42,7 +42,9 @@ function App() {
       
       <Header/>
       <div className="header_mask"></div>
-      <div className="intro-post"></div>
+      <div className="intro-post">
+        {/* <img src="/assets/pics/datu.jpg" alt=""></img> */}
+      </div>
       {/* <Waypoint onEnter={() => enter(0)} onLeave={() => leave(0)} topOffset="60px" bottomOffset="50%" fireOnRapidScroll={true}>
         <div><Activity/></div>
       </Waypoint>

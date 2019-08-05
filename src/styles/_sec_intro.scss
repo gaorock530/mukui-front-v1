@@ -1,9 +1,14 @@
 .intro-post {
   position: relative;
   width: 100%;
-  height: 800px;
-  max-height: 100vh;
-  background-image: url('/assets/slides/1r0a8928.jpg');
+  padding-bottom: 43%;
+  // max-height: 100vh;
+  background-image: url('/assets/pics/datu.jpg');
   background-size: cover;
   background-position: center center;
+
+  // img {
+  //   width: 100%;
+  //   padding-bottom: 43%;
+  // }
 }
